@@ -1,0 +1,8 @@
+{
+    "project_name": "myservice",
+    "service_description": "Service for running scheduled tasks",
+    "working_directory": "/path/to/your/project",
+    "exec_command": "your_command",
+    "boot_delay": "10s",
+    "interval": "30min"
+}

@@ -1,0 +1,7 @@
+[Unit]
+Description={{cookiecutter.service_description}}
+
+[Service]
+Type=oneshot
+WorkingDirectory={{cookiecutter.working_directory}}
+ExecStart={{cookiecutter.exec_command}}

@@ -1,0 +1,12 @@
+[Unit]
+Description={{cookiecutter.project_name}} timer
+
+[Timer]
+# Run after boot with specified delay
+OnBootSec={{cookiecutter.boot_delay}}
+
+# Run at specified interval after that
+OnUnitActiveSec={{cookiecutter.interval}}
+
+[Install]
+WantedBy=timers.target
